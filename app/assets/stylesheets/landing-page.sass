@@ -3,19 +3,43 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 @import "https://fonts.googleapis.com/css?family=Trocchi)"
+@import "https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300)"
 
 // TEMPORARY LANDING PAGE
 body
   font-family: "Helvetica Neue","Helvetica", sans-serif
-  background: #E43A3A
+  background-color: #E43A3A
   color: #fff
+  font-size: 16px
   text-align: center
+  -webkit-font-smoothing: antialiased
+  font-weight: normal
+
+.welcome
+  margin-top: 120px
 .logo-icon
   background-image: asset-url('logo-icon.png')
   background-size: 100%
   background-repeat: no-repeat
-  width: 42px
-  height: 66px
+  width: 32px
+  height: 49px
+  display: inline-block
 h1.logo
   font-family: "Trocchi", serif
-  font-size: 32px
+  font-size: 5rem
+  margin: 0 0 20px 0
+  cite
+    font-style: normal
+    font-family: "Roboto Slab", sans-serif
+    font-weight: 400
+    font-size: 1.4rem
+    display: block
+    letter-spacing: 10px
+    margin-top: 10px
+    padding-top: 10px
+h2.subheadline
+  font-weight: normal
+  font-family: "Roboto Slab", sans-serif
+  font-weight: 300
+  margin-top: 70px
+  margin-bottom: 20px
