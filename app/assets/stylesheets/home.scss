@@ -5,7 +5,13 @@
 @import "https://fonts.googleapis.com/css?family=Trocchi)";
 
 // TEMPORARY LANDING PAGE
-
+.logo-icon{
+  background-image: asset-url('images/logo-icon.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 66px;
+}
 h1.logo{
   font-family: "Trocchi", serif;
   font-size: 32px;
