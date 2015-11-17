@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   end
 
   root 'home#index'
+
+  get 'prototypes/:prototype', to: 'prototypes#index'
 end
