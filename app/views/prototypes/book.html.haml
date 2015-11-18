@@ -1,0 +1,90 @@
+%header.header
+  .container
+    .row
+      .left-section
+        .header-nav
+          %a{:href => ""}
+            Home
+          %a{:href => ""}
+            Discover Chefs
+      .center-section
+        %a.logo{:href => ""}
+      .right-section
+        .header-nav
+          %a{:href => ""}
+            Sign In
+          %a.btn-bordered{:href => ""}
+            Create Account
+    
+
+.container
+  .section
+    %h2.light.text-center
+      Book a Dining
+    .checkout
+      .left-section
+        .chef-card-item
+          %a{:href => ""}
+            .user-photo{ :style => "background-image: url('https://s3.amazonaws.com/uifaces/faces/twitter/dustinlamont/128.jpg')" }
+            %h3.chef-name
+              Tyler Howard
+            .chef-rating
+              %i.fa.fa-star
+              %i.fa.fa-star
+              %i.fa.fa-star
+              %i.fa.fa-star
+              %i.fa.fa-star.fa-disabled
+              %span.chef-feedback-count
+                15
+            .chef-meta-info
+              %span.location
+                Bonifacio Global City
+              %span.middot
+                &middot;
+              %span.guests-served
+                15 guests served
+            
+            
+      .right-section.payment-section
+        %h3
+          Your Booking Details
+        .section.section-small
+          .media.user-media
+            .media-left
+              .user-photo.user-photo-small{ :style => "background-image: url('https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/128.jpg')" }
+            .media-body
+              .user-name
+                Marlo Gerber
+          .section.section-small
+            .row
+              .col-md-6
+                .date-format.inline
+                  .date-month
+                    November
+                  .date-day-number
+                    30
+                    %span.date-day
+                      Tue
+                  .date-time
+                    7:30 PM
+              .col-md-6
+                %div
+                  %label.control-label
+                    Number of persons
+                %select
+                  %option 1
+            .section.section-small
+              .alert.alert-warning
+                Complete address of host will be shown after payment is confirmed.
+              .attach-note-form
+                %h4
+                  Attach a note
+                %textarea.form-control
+              .payment-details
+                %h3 Pay via PayPal
+                .paypal-logo
+                %p.text-muted
+                  Your payment information will not be stored on our site. All sensitive information is secured.
+                %a.btn.btn-block.btn-paypal{:href => ""}
+                  P580.00 - Pay via Paypal
+                

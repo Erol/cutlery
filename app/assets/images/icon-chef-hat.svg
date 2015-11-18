@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-chef-hat</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon-chef-hat" sketch:type="MSArtboardGroup" stroke="#353535" stroke-width="2">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(11.104492, 9.770804)">
+                <path d="M38.232387,8.00212751 C45.1070916,8.00212751 49.7910156,13.5751768 49.7910156,20.4498814 C49.7910156,27.3245861 44.2179664,32.8976353 37.3432617,32.8976353 L37.3432617,48.0077453 C37.3432617,50.4657693 35.3480413,52.4583915 32.8924438,52.4583915 L16.8985718,52.4583915 C14.4404529,52.4583915 12.4477539,50.4682095 12.4477539,48.0077453 L12.4477539,32.8976353 C5.57304925,32.8976353 0,27.3245861 0,20.4498814 C0,13.5751768 4.68392398,8.00212751 11.5586286,8.00212751" id="Rectangle-1" sketch:type="MSShapeGroup"></path>
+                <path d="M38.9096504,14.0141426 C38.9096504,6.27434535 32.635305,0 24.8955078,0 C17.1557106,0 10.8813652,5.38522007 10.8813652,13.1250173" id="Oval-1-Copy-2" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+                <path d="M13.7814418,44.456264 L36.0095738,44.456264" id="Line" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path d="M20.4498814,34.6758859 L20.4498814,44.2942844" id="Line" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+                <path d="M29.3411342,34.6758859 L29.3411342,44.2942844" id="Line" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

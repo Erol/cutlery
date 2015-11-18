@@ -1,8 +1,107 @@
-%header.header
+%header.header.header-welcome
   .container
-    .pull-left
-      Home
-      %br/
-      Discover
-    .pull-right
-  
+    .row
+      .left-section
+        .header-nav
+          %a{:href => ""}
+            Home
+          %a{:href => ""}
+            Discover Chefs
+      .center-section
+        %a.logo-w-label{:href => ""}
+      .right-section
+        .header-nav
+          %a{:href => ""}
+            Sign In
+          %a.btn-bordered{:href => ""}
+            Create Account
+    .row
+      %h1
+        Discover your local chefs and their food
+
+.home-section-intro
+  .container
+    .left-section
+      .opaque-box
+        .icon-chef-hat
+        %h3
+          Discover Chefs and Their Dishes
+        Choose from delectable made dishes by chefs around town.
+    .right-section
+      .opaque-box
+        .icon-two-bowls
+        %h3
+          Enjoy Dining with People
+        Make friends and enjoy your dining experience as a group.
+.container
+  .section
+    %h2.light.text-center
+      Discover your chefs
+    %ul.chef-card-list
+      %li.chef-card-item
+        %a.chef-card-link{:href => ""}
+          .user-photo
+          %h3.chef-name
+            Tyler Howard
+          .chef-rating
+            %i.fa.fa-star
+            %i.fa.fa-star
+            %i.fa.fa-star
+            %i.fa.fa-star
+            %i.fa.fa-star.fa-disabled
+            %span.chef-feedback-count
+              15
+          .chef-meta-info
+            %span.location
+              Bonifacio Global City
+            %span.middot
+              &middot;
+            %span.guests-served
+              15 guests served
+          .chef-overview
+            Born and raised in Flushing, Queens, Gabriel Dilone graduated from Johnson & Wales University before hopping into professional kitchens. He’s cooked at the famed Le Cirque and the Michelin-starred Rouge Tomate, along with steakhouses and other fine-dining spots.
+          .chef-menu-display.group
+            .media
+              .media-left
+                .menu-photo-thumbnail
+                  %img.media-object{:src => "", :alt => ""}/
+              .media-body
+                %h4
+                  Roasted Half Chicken
+                  %span.more-dishes
+                    + 3 more dishes
+      %li.chef-card-item
+        %a.chef-card-link{:href => ""}
+          .user-photo
+          %h3.chef-name
+            Joe Baker
+          .chef-rating
+            %i.fa.fa-star
+            %i.fa.fa-star
+            %i.fa.fa-star
+            %i.fa.fa-star
+            %i.fa.fa-star.fa-disabled
+            %span.chef-feedback-count
+              15
+          .chef-meta-info
+            %span.location
+              Bonifacio Global City
+            %span.middot
+              &middot;
+            %span.guests-served
+              15 guests served
+          .chef-overview
+            Music has always been a very big part of my life—and a lot of that music tends to move me. I think I communicate that soulfulness with my food
+          .chef-menu-display.group
+            .media
+              .media-left
+                .menu-photo-thumbnail
+                  %img.media-object{:src => "", :alt => ""}/
+              .media-body
+                %h4
+                  Applewood Smoked Chicken Wings
+                  %span.more-dishes
+                    + 3 more dishes
+.section.text-center                    
+  %a.see-more.btn
+    See more chefs

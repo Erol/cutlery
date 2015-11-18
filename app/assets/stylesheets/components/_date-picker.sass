@@ -1,0 +1,71 @@
+.date-picker
+  font-family: $primary-font
+  margin: 20px 0
+  +flexbox
+  flex-wrap: wrap
+  .date-picker-box
+    height: 155px
+    border-top: 1px solid $light-gray
+    border-bottom: 1px solid $light-gray
+    cursor: default
+    position: relative
+    +transition(box-shadow, .2s)
+    &:hover
+      box-shadow: 0 0 15px rgba(0,0,0,.15)
+      z-index: 1
+
+    &.date-picker-full
+      .date-day-number,
+      .date-day-time
+        opacity: .4
+  .date-picker-tile
+    flex-grow: 1
+    box-sizing: border-box
+
+    &:nth-child(odd)
+      .date-picker-box
+        background-color: $lighter-gray
+  .date-picker-head
+    color: $gray
+    padding: 5px 0
+    text-transform: uppercase
+  .date-day-number
+    font-size: 24px
+    text-align: center
+    .date-day
+      font-size: $font-small
+      color: $gray
+      margin-left: 5px
+      vertical-align: middle
+  .date-picker-days
+    text-align: center
+    
+    padding: 10px 0
+  .date-picker-action
+    text-align: center
+  .seats-left
+    font-size: $font-small
+    margin-top: 10px
+    color: $gray
+
+.date-format
+  font-family: $primary-font
+  &.inline
+    .date-time,
+    .date-day-number
+      display: inline-block
+    
+    .date-time
+      margin-left: 20px
+      vertical-align: top
+      margin-top: 10px
+  .date-day-number
+    font-size: 24px
+    display: block
+    .date-day
+      color: $gray
+      font-size: $font-small
+      margin-left: 5px
+      vertical-align: middle
+
+    

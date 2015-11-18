@@ -1,0 +1,32 @@
+.btn
+  font-family: $primary-font
+  border-radius: $btn-border-radius
+  padding: 3px 12px
+  border: none
+  color: $primary-action-color
+  +transition(all, .2s)
+  &:hover
+    background-color: none
+    color: darken($primary-action-color, 10%) 
+.btn-disabled
+  background-color: $light-gray
+  color: $gray
+.btn-secondary
+  background-color: $secondary-action-color
+  color: #fff
+  &:hover
+    box-shadow: 0 1px 5px rgba(0,0,0,.15)
+    color: #fff
+  &:active
+    background-color: darken($secondary-action-color, 8%)
+    box-shadow: 0 1px 2px rgba(0,0,0,.25)
+a.btn-paypal
+  background-color: #009cde
+  color: #fff
+  padding: 10px
+  font-weight: 700
+  &:hover
+    color: #fff
+a.see-more
+  &:hover
+    color: darken($primary-action-color, 10%)

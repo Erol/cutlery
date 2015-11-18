@@ -1,0 +1,12 @@
+@mixin transition($attribute, $time)
+  -webkit-transition: $attribute $time ease-out
+  -moz-transition: $attribute $time ease-out
+  -o-transition: $attribute $time ease-out
+  transition: $attribute $time ease-out
+
+@mixin flexbox()
+  display: -webkit-box
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex

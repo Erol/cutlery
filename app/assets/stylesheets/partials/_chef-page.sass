@@ -1,0 +1,65 @@
+.chef-page
+  .overview-header
+    @extend .col-md-10
+    padding: 15px 15px 15px 0
+    border-right: 1px solid $light-gray
+    .chef-meta-info
+      margin: 5px 15px 5px 15px
+
+  .page-action
+    @extend .col-md-2
+    text-align: center
+    padding: 15px
+    .btn
+      margin-top: 10px
+  .price-per-person
+    font-size: 18px
+    font-family: $primary-font
+    .price-label
+      font-size: $font-small
+      color: $gray
+.chef-page-header 
+  border-bottom: 1px solid $light-gray
+  &.w-photo
+    position: relative
+    padding-left: 103px
+    .user-photo
+      position: absolute
+      left: 0
+      top: 20px
+
+.chef-rating
+  font-size: 13px
+  &.chef-rating-small
+    .fa
+      font-size: 10px
+  .fa
+    color: $star-color
+    &.fa-disabled
+      color: $light-gray
+  .chef-feedback-count
+    font-family: $primary-font
+    color: $gray
+    margin-left: 3px
+.chef-meta-info
+  color: $gray
+  margin: 20px 0
+  font-family: $primary-font
+  font-size: 13px
+  display: inline-block
+  .middot
+    font-size: 14px
+    font-weight: bold
+    font-family: "Helvetica Neue"
+    line-height: 1
+    margin: 0 5px
+    display: inline-block
+    color: $light-gray
+  .location
+    display: inline-block
+    &:before
+      font-family: "FontAwesome"
+      content: "\f041"
+      color: $light-gray
+  .guests-served
+    display: inline-block
